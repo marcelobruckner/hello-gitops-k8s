@@ -9,4 +9,4 @@ namespace: hello-dev
 images:
 - name: marcelobruckner/hello
   newName: marcelobruckner/hello
-  newTag: 8b0d7c76521e7fe12948423305b153ff90ed0ebe6d78d54c37e0c7a35ab798a9
+  newTag: 9493f4aee214c95d403704b24bc4cb80c95d18e82b1af2205e31ea74f8339135
