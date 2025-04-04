@@ -1,12 +1,15 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - service.yaml
-  - deployment.yaml
+- service.yaml
+- deployment.yaml
 
 namespace: hello
 
 images:
-  - name: hello
-    newName: marcelobruckner/hello
-    newTag: "123456"
+- name: hello
+  newName: marcelobruckner/hello
+  newTag: "123456"
+- name: marcelobruckner/hello
+  newName: marcelobruckner/hello
+  newTag: 44bd211d1baa372ce3767d53feb4542fa9487e411d2267f8a16bb1c28aa80c1f
