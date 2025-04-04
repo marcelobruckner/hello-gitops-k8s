@@ -7,6 +7,6 @@ resources:
 namespace: hello
 
 images:
-  - name: marcelobruckner/hello
+  - name: hello
     newName: marcelobruckner/hello
     newTag: a6b68a5c3b25212300ec0c263c4bbf7ba11c17119990ad7a419e864d060f40c4

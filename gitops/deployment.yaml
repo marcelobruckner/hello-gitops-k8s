@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: hello
-  namespace: hello
+  namespace: hello-dev
   labels:
     app: hello
 spec:
@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: hello
-          image: image-registry.openshift-image-registry.svc:5000/hello/hello
+          image: marcelobruckner/hello
           ports:
             - name: http
               containerPort: 8080
